@@ -1,0 +1,32 @@
+body {
+  background: #efefef;
+}
+.containerMenu {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  background: #ececec;
+  border-radius: 10px;
+}
+.item {
+  text-align: center;
+  display: flex;
+  width: 50%;
+  padding: 10px;
+}
+.item a {
+  padding: 10px;
+  min-width: 180px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  background: #777;
+  color: #fff;
+  text-decoration: none;
+  transition: 200ms;
+}
+.item a:hover {
+  transition: 200ms;
+  background: #fff;
+  color: #777;
+}

@@ -9,14 +9,14 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>{" "}
-          </li>
-          <li>
-            <Link to="/list">Lista</Link>{" "}
-          </li>
-        </ul>
+        <div className="containerMenu">
+          <div className="item">
+            <Link to="/">Inicio</Link>
+          </div>
+          <div className="item">
+            <Link to="/list">Lista completa</Link>
+          </div>
+        </div>
       </header>
     );
   }
